@@ -1,0 +1,44 @@
+{
+  "name": "react-essential",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run watch && npm run start",
+    "start": "webpack-dev-server --progress --colors",
+    "watch": "webpack -w"
+  },
+  "keywords": [
+    "ali"
+  ],
+  "author": "ali mirabbasi",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^2.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.x",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "ember-cli-materialize": "^0.22.0",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "write-file-webpack-plugin": "^4.5.1"
+  },
+  "dependencies": {
+    "file-loader": "^4.2.0",
+    "jquery": "^2.2.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "url-loader": "^2.1.0"
+  }
+}
