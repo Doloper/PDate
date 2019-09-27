@@ -1,7 +1,7 @@
 {
-  "name": "react-essential",
+  "name": "PDate",
   "version": "1.0.0",
-  "description": "test",
+  "description": "Persian Date component for React.js",
   "main": "index.js",
   "scripts": {
     "serve": "npm run watch && npm run start",
@@ -9,10 +9,10 @@
     "watch": "webpack -w"
   },
   "keywords": [
-    "ali"
+    "Persian Date"
   ],
-  "author": "ali mirabbasi",
-  "license": "ISC",
+  "author": "Doloper",
+  "license": "None",
   "devDependencies": {
     "autoprefixer-loader": "^2.1.0",
     "babel-cli": "^6.26.0",
@@ -34,8 +34,6 @@
   },
   "dependencies": {
     "file-loader": "^4.2.0",
-    "jquery": "^2.2.4",
-    "materialize-css": "^1.0.0-rc.2",
     "path": "^0.12.7",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
